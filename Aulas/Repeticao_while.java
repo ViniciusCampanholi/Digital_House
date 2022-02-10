@@ -2,7 +2,7 @@ package Aulas;
 
 import java.util.Scanner;
 
-public class Repeticao_while {
+public class Repeticao_While {
 
 	public static void main(String[] args) {
 		float n1, n2, n3, media, somaMedia=0, mediaGeral;
