@@ -14,13 +14,12 @@ public class Exercicio_6 {
 			System.out.println("Digite um numero: ");
 			num = sc.nextInt();
 			
-			if(num % 3 == 0) {
-				soma = soma + num;
+			if(num> 0 && num % 3 == 0) {
+				soma += num;
 				nMultiploDeTres += 1; 
 			}
 		} while(num != 0);
 		media = soma/nMultiploDeTres;
 		System.out.println("A media dos multiplos de 3 digitados é : "+media);
 	}
-
 }
