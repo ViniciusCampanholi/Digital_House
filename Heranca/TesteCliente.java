@@ -1,4 +1,4 @@
-package Herança;
+package Heranca;
 
 public class TesteCliente {
 

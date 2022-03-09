@@ -1,4 +1,4 @@
-package Herança;
+package Heranca;
 
 public class Funcionario extends Pessoa 
 {
@@ -41,7 +41,7 @@ public class Funcionario extends Pessoa
 	public void imprimirInfo()
 	{
 		System.out.println("Nome: "+getNome());
-		System.out.println("Endereço: "+getEndereco());
+		System.out.println("Endereï¿½o: "+getEndereco());
 		System.out.println("CPF: "+getCpf());
 		System.out.println("Telefone: "+getTelefone());
 		System.out.println("Idade: "+getIdade());
@@ -54,6 +54,6 @@ public class Funcionario extends Pessoa
 	{
 		double salarioLiquido = salarioBase - (salarioBase * (imposto/100));
 		
-		System.out.println("\nO salario total do funcionario "+getNome()+" é igual a "+salarioLiquido);
+		System.out.println("\nO salario total do funcionario "+getNome()+" ï¿½ igual a "+salarioLiquido);
 	}
 }

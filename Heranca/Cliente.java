@@ -1,4 +1,4 @@
-package Herança;
+package Heranca;
 
 public class Cliente extends Pessoa{
 
@@ -51,14 +51,14 @@ public class Cliente extends Pessoa{
 	public void calcularPreco() 
 	{
 		double precoVenda = valorBruto - (valorBruto * (desconto/100));
-		System.out.println("Preço de venda: " + precoVenda);
+		System.out.println("Preï¿½o de venda: " + precoVenda);
 	}
 
 	public void imprimirInfo() 
 	{
 		System.out.println("Nome: "+getNome());
-		System.out.println("Endereço de cadastro: "+getEndereco());
-		System.out.println("Enederço de entrega: "+enderecoEntrega);
+		System.out.println("Endereï¿½o de cadastro: "+getEndereco());
+		System.out.println("Enederï¿½o de entrega: "+enderecoEntrega);
 		System.out.println("CPF: "+getCpf());
 		System.out.println("Telefone: "+getTelefone());
 		System.out.println("Numero de pedido "+pedido);

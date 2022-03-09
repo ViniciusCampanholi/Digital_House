@@ -1,4 +1,4 @@
-package Herança;
+package Heranca;
 
 public class Pessoa {
 	private String nome;
@@ -69,12 +69,11 @@ public class Pessoa {
 	public void validarCpf() {
 		if(getCpf().length() != 11)
 		{
-			System.out.println("CPF inálido!");
+			System.out.println("CPF inï¿½lido!");
 		}
 		else
 		{
-			System.out.println("CPF válido.");
+			System.out.println("CPF vï¿½lido.");
 		}
 	}
-	
 }

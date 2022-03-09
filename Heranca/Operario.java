@@ -1,4 +1,4 @@
-package Herança;
+package Heranca;
 
 public class Operario extends Pessoa {
 	private double valorProducao;
@@ -34,13 +34,13 @@ public class Operario extends Pessoa {
 		System.out.println("Idade: "+getIdade());
 		System.out.println("Telefone: "+getTelefone());
 		System.out.println("Endereco: "+getEndereco());
-		System.out.println("Valor produção: "+valorProducao);
-		System.out.println("Comissão: "+comissao);
+		System.out.println("Valor produï¿½ï¿½o: "+valorProducao);
+		System.out.println("Comissï¿½o: "+comissao);
 	}
 	
 	public void calcularProducao()
 	{
 		double valorTotal = valorProducao + (valorProducao * (comissao / 100));
-		System.out.println("O valor total a ser recebido por "+getNome()+" será de R$ "+valorTotal);
+		System.out.println("O valor total a ser recebido por "+getNome()+" serï¿½ de R$ "+valorTotal);
 	}
 }
